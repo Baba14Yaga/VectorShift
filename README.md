@@ -75,12 +75,27 @@ Follow these steps to set up and run the project on your local machine.
     ```bash
     npm start
     ```
-11. Start the Redis server on WSL:
+
+### Redis Setup
+
+11. Open a new terminal and Start WSL:
 
     ```bash
     wsl
+    ```
+12. Start the Redis server on WSL:
+
+    ```bash
     sudo service redis-server start
+    ```  
+
+12. Start the redis cli:
+
+    ```bash
     redis-cli
     ```
+
+    
+    
 
 The project should now be running with the backend server accessible at the specified URL (usually `http://localhost:8000` by default) and the frontend server running on its specified port (usually `http://localhost:3000` by default).
