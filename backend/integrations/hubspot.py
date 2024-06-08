@@ -10,8 +10,8 @@ import requests
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 from fastapi import Request
 
-CLIENT_ID = 'a57c01ac-77f1-4afe-9a1d-5093c14eecf8'
-CLIENT_SECRET = 'f8fc8f36-3e10-4d3b-a4f5-f85b9cc3448a'
+CLIENT_ID = 'XXX'
+CLIENT_SECRET = 'XXX'
 SCOPE='crm.objects.companies.read crm.objects.companies.write oauth'
 encoded_client_id_secret = base64.b64encode(f'{CLIENT_ID}:{CLIENT_SECRET}'.encode()).decode()
 
